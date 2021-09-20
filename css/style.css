@@ -1,0 +1,62 @@
+/* GENERAL */
+body{
+  margin: 0 auto;
+  background-color: #F0F0F0;
+}
+h1, h2{
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+}
+p{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 21px;
+}
+
+
+/* SPECIAL */
+h1{
+  font-size: 56px;
+  text-align: center;
+}
+
+
+/* POKEMON CARDS */
+.card{
+  width: 700px;
+  margin: auto;
+  background-color: #FFFFFF;
+  box-shadow: 2px 5px 10px 3px #c1c1c1;
+  margin-bottom: 50px;
+}
+.carte_poke{
+  display: flex;
+  align-items: center;
+}
+.picture_side{
+  width: 400px;
+  height: 300px;
+  position: relative;
+}
+.img_pokemon{
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%;
+  max-height: 90%;
+  width: clamp(50%, 90%, 350px);
+}
+.details{
+  flex-grow: 1;
+  margin-left: 50px;
+}
+h2{
+  font-size: 24px;
+}
+.type_zone{
+  display: flex;
+}
+.type1{
+  margin-right: 20px;
+}
